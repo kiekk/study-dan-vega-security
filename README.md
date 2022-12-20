@@ -46,3 +46,11 @@ Spring Security CORS: How to configure CORS in Spring Boot & Spring Security
 Branch : security-cors
 Youtube : https://www.youtube.com/watch?v=HRwlT_etr60
 ```
+
+```
+
+Spring Security JPA Authentication in Spring Boot
+
+Branch : security-authenticate-with-jpa
+Youtube : https://www.youtube.com/watch?v=awcCiqBO36E
+```
