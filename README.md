@@ -7,3 +7,11 @@
 
 Dan Vega Youtube : https://www.youtube.com/@DanVega/videos
 ```
+
+```
+
+Spring Security the WebSecurityConfigurerAdapter
+
+Branch : security-without-websecurityconfigureradapter
+Youtube : https://www.youtube.com/watch?v=s4X4SJv2RrU
+```
