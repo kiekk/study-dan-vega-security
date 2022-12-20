@@ -1,7 +1,9 @@
 package com.example.studydanvegasecurity;
 
 import com.example.studydanvegasecurity.entity.Post;
+import com.example.studydanvegasecurity.entity.User;
 import com.example.studydanvegasecurity.repository.PostRepository;
+import com.example.studydanvegasecurity.repository.UserRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -15,8 +17,10 @@ public class StudyDanVegaSecurityApplication {
     }
 
     @Bean
-    CommandLineRunner commandLineRunner(PostRepository repository) {
+    CommandLineRunner commandLineRunner(PostRepository repository, UserRepository userRepository) {
         return args -> {
+            userRepository.save(new User("user", "password", "ROLE_USER"));
+            userRepository.save(new User("admin", "password", "ROLE_ADMIN"));
             repository.save(new Post("Hello World!", "hello-world", "Welcome to my blog!", "User"));
         };
     }
