@@ -30,3 +30,11 @@ Spring Security JWT: How to secure your Spring Boot REST APIs with JSON Web Toke
 Branch : restapi-with-jwt
 Youtube : https://www.youtube.com/watch?v=KYNR5js2cXE
 ```
+
+```
+
+Spring Security JDBC: How to authenticate against a database in Spring Boot
+
+Branch : security-authenticate-database
+Youtube : https://www.youtube.com/watch?v=d7ZmZFbE_qY
+```
