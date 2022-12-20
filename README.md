@@ -38,3 +38,11 @@ Spring Security JDBC: How to authenticate against a database in Spring Boot
 Branch : security-authenticate-database
 Youtube : https://www.youtube.com/watch?v=d7ZmZFbE_qY
 ```
+
+```
+
+Spring Security CORS: How to configure CORS in Spring Boot & Spring Security
+
+Branch : security-cors
+Youtube : https://www.youtube.com/watch?v=HRwlT_etr60
+```
