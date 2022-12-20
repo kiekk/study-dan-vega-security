@@ -15,5 +15,10 @@ Spring Security the WebSecurityConfigurerAdapter
 Branch : security-without-websecurityconfigureradapter
 Youtube : https://www.youtube.com/watch?v=s4X4SJv2RrU
 
-참고 자료 : https://spring.io/blog/2022/02/21/spring-security-without-the-websecurityconfigureradapter
+참고 자료
+
+https://spring.io/blog/2022/02/21/spring-security-without-the-websecurityconfigureradapter
+https://www.baeldung.com/spring-security-5-default-password-encoder
+https://stackoverflow.com/questions/74683225/updating-to-spring-security-6-0-replacing-removed-and-deprecated-functionality
+https://stackoverflow.com/questions/28907030/spring-security-authorize-request-for-certain-url-http-method-using-httpsecu/74633151#74633151
 ```
