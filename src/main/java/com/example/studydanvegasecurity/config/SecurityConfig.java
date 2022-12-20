@@ -9,6 +9,8 @@ import org.springframework.security.config.annotation.web.configurers.AbstractHt
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 
+import static org.springframework.security.config.Customizer.withDefaults;
+
 @Configuration
 @EnableWebSecurity
 @EnableMethodSecurity
@@ -23,6 +25,7 @@ public class SecurityConfig {
                         .requestMatchers(new AntPathRequestMatcher("/api/posts")).permitAll()
                         .anyRequest().authenticated()
                 )
+                .formLogin(withDefaults())
                 .headers(headers -> headers.frameOptions().sameOrigin())
                 .build();
     }
