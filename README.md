@@ -54,3 +54,12 @@ Spring Security JPA Authentication in Spring Boot
 Branch : security-authenticate-with-jpa
 Youtube : https://www.youtube.com/watch?v=awcCiqBO36E
 ```
+
+```
+
+Spring Boot Spring Security JWT: How to authenticate with a username and password
+
+Branch : security-authenticate-with-jwt
+Youtube : https://www.youtube.com/watch?v=UaB-0e76LdQ
+
+```
