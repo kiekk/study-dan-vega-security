@@ -13,7 +13,7 @@ import static com.example.studydanvegasecurity.enums.Size.*;
 
 @RestController
 @RequestMapping("/api/coffee")
-@CrossOrigin
+//@CrossOrigin
 //@CrossOrigin(originPatterns = "http://localhost:3000") // originPatterns 에 cors 허용할 url 작성
 public class CoffeeController {
 
