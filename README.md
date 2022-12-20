@@ -22,3 +22,11 @@ https://www.baeldung.com/spring-security-5-default-password-encoder
 https://stackoverflow.com/questions/74683225/updating-to-spring-security-6-0-replacing-removed-and-deprecated-functionality
 https://stackoverflow.com/questions/28907030/spring-security-authorize-request-for-certain-url-http-method-using-httpsecu/74633151#74633151
 ```
+
+```
+
+Spring Security JWT: How to secure your Spring Boot REST APIs with JSON Web Tokens
+
+Branch : restapi-with-jwt
+Youtube : https://www.youtube.com/watch?v=KYNR5js2cXE
+```
