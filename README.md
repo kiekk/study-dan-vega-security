@@ -14,4 +14,6 @@ Spring Security the WebSecurityConfigurerAdapter
 
 Branch : security-without-websecurityconfigureradapter
 Youtube : https://www.youtube.com/watch?v=s4X4SJv2RrU
+
+참고 자료 : https://spring.io/blog/2022/02/21/spring-security-without-the-websecurityconfigureradapter
 ```
